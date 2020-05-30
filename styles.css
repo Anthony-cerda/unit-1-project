@@ -9,7 +9,7 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #f7f5f0;
+  background: #0d1d29;
 }
 
 h2 {
@@ -22,7 +22,7 @@ a {
   color: #999;
 }
 a:hover {
-  color: #6633ff;
+  color: #3f78ce;
 }
 
 /* Section Styles */
@@ -59,9 +59,25 @@ a:hover {
   color: white
 }
 
-header {
+.main-header {
   text-align: center;
   background: url('images/0.jpg')  no-repeat; 
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
+
+.hob-header {
+  text-align: center;
+  background: url('images/bike.jpg')  no-repeat; 
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
+
+.exp-header {
+  text-align: center;
+  background: url('images/n.gif') no-repeat; 
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -82,7 +98,7 @@ header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
 .tag {
-  background-color: #efefef;
+  background-color: rgb(207, 207, 207);
   color: black;
   padding: 10px;
   border-radius: 5px;
@@ -91,7 +107,7 @@ header .profile-image:hover {
 } 
 .location {
   background-color: #222;
-  color: yellow;
+  color: #ff99ff;
 }
 
 .card {
@@ -99,7 +115,7 @@ header .profile-image:hover {
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
-  background: #fff;
+  background: rgb(207, 207, 207);
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
@@ -135,6 +151,7 @@ footer {
 footer .copyright {
   top: -8px;
   font-size: .75em;
+  color: #999;
 }
 
 footer ul {
@@ -154,7 +171,7 @@ a.social {
   width: 30px;
   height: 30px;
   background-size: 30px 30px;
-  opacity: .4;
+  opacity: 1;
   transition: all .5s;
 }
 a.twitter {
@@ -167,7 +184,7 @@ a.github {
   background-image: url(images/github.svg);
 }
 a.social:hover {
-  opacity: 1;
+  opacity: .5;
 }
 .clearfix {
   clear: both;
