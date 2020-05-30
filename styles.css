@@ -115,6 +115,7 @@ header .profile-image:hover {
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
+  letter-spacing: .5px;
   background: rgb(207, 207, 207);
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
