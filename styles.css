@@ -95,7 +95,7 @@ header .profile-image {
 }
 
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.5) rotate(360deg);
 }
 .tag {
   background-color: rgb(207, 207, 207);
